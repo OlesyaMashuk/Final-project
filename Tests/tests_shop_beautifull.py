@@ -261,28 +261,6 @@ class LoginTest(unittest.TestCase):
         self.assertEqual(message_20, 'КАРТА САЙТА')
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     @classmethod
     def tearDownClass(cls):
         cls.driver.close()
